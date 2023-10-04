@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.mytask</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/faidhi/Documents/venv/bin/python3</string>
+        <string>/Users/faidhi/Documents/bla.py</string>
+    </array>
+    <key>KeepAlive</key>
+    <true/> <!-- Keeps the job running -->
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/faidhi/Documents/your_script.log</string>
+    <key>StandardErrorPath</key>
+    <string>your_script_error.log</string>
+</dict>
+</plist>
